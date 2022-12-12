@@ -1,1 +1,2 @@
-npm i node
+cd \inetpub\wwwroot
+npm install
