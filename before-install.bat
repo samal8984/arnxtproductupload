@@ -1,2 +1,2 @@
-cd /uploadproduct
+cd \uploadproduct
 npm install
