@@ -1,8 +1,8 @@
 version: 0.0
 os: windows
 files:
-  - source: \UploadProduct\frontend\public\index.html
-    destination:  c:\destination
+  - source: \frontend\public\index.js
+    destination: \destyml
 hooks:
   BeforeInstall:
     - location: \before-install.bat
