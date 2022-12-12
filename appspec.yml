@@ -1,8 +1,8 @@
 version: 0.0
 os: windows
 files:
-  - source: \index.html
-    destination: C:\inetpub\wwwroot
+  - source: \frontend\index.html
+    destination: C:\UploadProduct
 hooks:
   BeforeInstall:
     - location: \before-install.bat
