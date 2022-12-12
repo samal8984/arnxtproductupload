@@ -1,2 +1,2 @@
-cd \inetpub\wwwroot
+cd \uploadproduct
 npm install

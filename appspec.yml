@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: \frontend\public\index.html
-    destination:  c:\inetpub\wwwroot
+    destination:  c:\uploadproduct
 hooks:
   BeforeInstall:
     - location: \before-install.bat
