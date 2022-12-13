@@ -8,14 +8,14 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling
-      - /frontend npm run build
+      - npm run build
   post_build:
     commands:
       - echo Build completed on `date`
 # Include only the files required for your application to run.
 artifacts:
   files:
-    - frontend/**/*
+    - public/**/*
     - src/**/*
     - package.json
     - appspec.yml
