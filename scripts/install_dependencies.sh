@@ -7,7 +7,7 @@
 # here we update the server and install node and npm
 echo installing dependencies
 sudo apt-get update
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install nodejs -y
 sudo apt-get -y install npm
 
