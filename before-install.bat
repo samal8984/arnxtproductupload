@@ -1,2 +1,0 @@
-cd \destyml
-npm install
